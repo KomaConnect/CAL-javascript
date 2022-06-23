@@ -18,7 +18,8 @@ if (isNaN(Num1) || isNaN(Num2)){
         }else if (operator == "/") {
                 result= Num1 / Num2;
         }
-        Prompt(result)
+        
+        window.prompt(result)
         
 }
         
